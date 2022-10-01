@@ -146,6 +146,16 @@ button {
     line-height: 1.14;
     letter-spacing: 0.02em;
 }
+.active::after {
+    display: block;
+    content: '';
+    width: 78px;
+    height: 4px;
+    background-color: #2196F3;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 8px;
+}
 
 .nav-text:hover {
     color: var(--accent-color);
