@@ -147,16 +147,32 @@ button {
     line-height: 1.14;
     letter-spacing: 0.02em;
 }
-.active::after {
-    display: absolute;
+
+.studia-after::after {
     content: '';
-    width: 78px;
+    position: absolute;
+    display: block;
+    width: 48px;
     height: 4px;
-    background-color: #2196F3;
+    background-color: var(--accent-color);
+    border-radius: 2px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 28px;
+    margin-top: 52px;
 }
+
+.portfolio-after::after {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 78px;
+    height: 4px;
+    background-color: var(--accent-color);
+    border-radius: 2px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 52px;
+}  
 
 .nav-text:hover {
     color: var(--accent-color);
@@ -818,7 +834,7 @@ button {
 .footer-social-icon {
     fill: #FFFFFF;
 }
-
+/*========МОДАЛЬНЕ ВІКНО=========*/
 .backdrop {
 position: fixed;
 top: 0;
