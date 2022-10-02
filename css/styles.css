@@ -138,6 +138,7 @@ button {
 }
 
 .active {
+    display: flex;
     color: var(--accent-color);
     font-style: normal;
     text-decoration: none;
@@ -147,14 +148,14 @@ button {
     letter-spacing: 0.02em;
 }
 .active::after {
-    display: block;
+    display: absolute;
     content: '';
     width: 78px;
     height: 4px;
     background-color: #2196F3;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 8px;
+    margin-top: 28px;
 }
 
 .nav-text:hover {
@@ -861,16 +862,8 @@ border-radius: 4px;
     background-color: transparent;
     border: 1px solid #cccccc;
     padding: 0;
-    transition: border-color var();
 }
 
 .modal-close-icon {
     fill: #000000;
-    transition: fill var();
 }
-
-.modal-close-btn:focus {}
-.modal-close-btn:hover {}
-
-.modal-close-icon:hover {}
-.modal-close-icon:focus {}
