@@ -315,6 +315,7 @@ button {
 .button-primery {
     color: #FFFFFF;
     background: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
