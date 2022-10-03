@@ -139,7 +139,6 @@ button {
     transition-property: color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    transition-delay: 250ms;
 }
 
 .active {
@@ -187,7 +186,6 @@ button {
     transition-property: fill;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    transition-delay: 250ms;
 }
 
 .mail-header:hover .header-mail-icon {
@@ -217,7 +215,6 @@ button {
     transition-property: color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    transition-delay: 250ms;
 }
 
 .mail-header:hover {
@@ -235,7 +232,6 @@ button {
     transition-property: fill;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    transition-delay: 250ms;
 }
 
 .tel-header:hover .header-tel-icon {
@@ -271,7 +267,6 @@ button {
     transition-property: color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    transition-delay: 250ms;
 }
 
 .tel-header:hover {
@@ -334,7 +329,6 @@ button {
     transition-property: background;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    transition-delay: 250ms;
 }
 
 .button-primery:hover {
@@ -530,7 +524,6 @@ button {
     transition-property: background, fill;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    transition-delay: 250ms;
 }
 
 .social-list-icon {
@@ -539,7 +532,6 @@ button {
     transition-property: fill;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    transition-delay: 250ms;
 }
 
 .social-list-link:hover {
@@ -590,7 +582,6 @@ button {
     transition-property: fill, border;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    transition-delay: 250ms;
 }
 
 .client-icon {
@@ -599,7 +590,6 @@ button {
     transition-property: fill;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    transition-delay: 250ms;
 }
 
 .client-link:hover .client-icon {
@@ -657,7 +647,6 @@ button {
     transition-property: color, background, box-shadow;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    transition-delay: 250ms;
 }
 
 .button-secondary:hover {
@@ -686,7 +675,6 @@ button {
     transition-property: box-shadow, transform;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    transition-delay: 250ms;
 }
 
 
@@ -751,7 +739,6 @@ button {
     transition-property: transform;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    transition-delay: 250ms;
 }
 .project-link:hover .work-overlay {
     transform: translateY(0%);
@@ -818,7 +805,6 @@ button {
     transition-property: color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    transition-delay: 250ms;
 }
 
 .white-address:hover {
@@ -841,7 +827,6 @@ button {
     transition-property: color, transform;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    transition-delay: 250ms;
 }
 
 .white-cont:hover {
@@ -887,7 +872,6 @@ button {
     transition-property: background, transform;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    transition-delay: 250ms;
 }
 
 .footer-social-list-link:hover {
